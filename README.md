@@ -1,4 +1,4 @@
-# Task-2-Anubhav_Singh
+# Fraud-Detection-Pipeline
 ## Fraud Detection Machine Learning Pipeline
 
 A supervised ML pipeline for detecting fraudulent credit card transactions in a highly imbalanced real-world dataset. Implements SMOTE for class balancing, trains Logistic Regression and Random Forest inside leak-proof `imblearn` Pipelines, tunes hyperparameters with `GridSearchCV`, and evaluates using Precision, Recall, F1-score, ROC-AUC, and Confusion Matrix.
@@ -25,7 +25,7 @@ File: `creditcard.csv` (144 MB — not committed to repo; see Setup below)
 ## Project Structure
 
 ```
-Task-2-Anubhav_Singh/
+Fraud-Detection-Pipeline/
 │
 ├── fraud_detection_pipeline.py   # Full ML pipeline (main script)
 ├── requirements.txt              # Python dependencies
@@ -147,8 +147,8 @@ There is no single winner — each model makes a different trade-off:
 
 ### Installation
 ```bash
-git clone https://github.com/<your-username>/Task-2-Anubhav_Singh.git
-cd Task-2-Anubhav_Singh
+git clone https://github.com/Anubhavsingh311/Fraud-Detection-Pipeline.git
+cd Fraud-Detection-Pipeline
 pip install -r requirements.txt
 ```
 
